@@ -251,7 +251,7 @@
         const welcomeScreen = document.getElementById('welcome-screen');
         const typingText = document.getElementById('typing-text');
 
-        const message = "Chúc bạn một ngày 8/3 ngọt ngào, xinh đẹp và tràn đầy năng lượng tích cực! Bạn là phiên bản duy nhất và tuyệt vời nhất...";
+        const message = "Chúc bạn một ngày 8/3 ngọt ngào, xinh đẹp và tràn đầy năng lượng tích cực! Bạn là phiên bản duy nhất và tuyệt vời nhất";
 
         // Xử lý khi bắt đầu
         startBtn.addEventListener('click', () => {
@@ -265,7 +265,7 @@
 
         // Hiệu ứng gõ chữ
         let i = 0;
-        function startTyping() {
+        function startTyping(1) {
             if (i < message.length) {
                 typingText.innerHTML += message.charAt(i);
                 i++;
