@@ -179,7 +179,7 @@
 
     <!-- Nhạc nền (Thay link MP3 của bạn vào đây) -->
     <audio id="bg-music" loop>
-        <source src="https://www.youtube.com/watch?v=mfavkCY52MI&list=RDmfavkCY52MI&start_radio=1" type="audio/mpeg">    
+        <source src="https://www.youtube.com/watch?v=mfavkCY52MI&list=RDmfavkCY52MI&start_radio=1.mp4" type="audio/mpeg">    
     </audio>
     <div class="music-control" onclick="toggleMusic()">🎵</div>
 
