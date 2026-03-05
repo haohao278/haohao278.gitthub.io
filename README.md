@@ -3,7 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hương</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <style>
         :root {
             --primary-pink: #ff758c;
@@ -177,7 +179,7 @@
 
     <!-- Nhạc nền (Thay link MP3 của bạn vào đây) -->
     <audio id="bg-music" loop>
-        <source src="One Direction - What Makes You Beautiful(Lyrics).mp3" type="audio/mpeg">    
+        <source src="One Direction - What Makes You Beautiful(Lyrics).mp4" type="audio/mpeg">    
     </audio>
     <div class="music-control" onclick="toggleMusic()">🎵</div>
 
