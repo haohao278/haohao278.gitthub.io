@@ -4,8 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hương</title>
 
-  
-    
     <style>
         :root {
             --primary-pink: #ff758c;
