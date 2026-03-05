@@ -179,7 +179,7 @@
 
     <!-- Nhạc nền (Thay link MP3 của bạn vào đây) -->
     <audio id="bg-music" loop>
-        <source src="https://zingmp3.vn/bai-hat/What-Makes-You-Beautiful-You-Don-t-Know-You-re-Beautiful/Z69DCEO0.html" type="audio/mpeg">    
+        <source src="One-Direction-What-Makes-You-Beautiful-_Official-Video_" type="audio/mpeg">    
     </audio>
     <div class="music-control" onclick="toggleMusic()">🎵</div>
 
