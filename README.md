@@ -179,7 +179,7 @@
 
     <!-- Nhạc nền (Thay link MP3 của bạn vào đây) -->
     <audio id="bg-music" loop>
-        <source src="One Direction - What Makes You Beautiful(Lyrics).mp4" type="audio/mpeg">    
+        <source src="https://zingmp3.vn/bai-hat/What-Makes-You-Beautiful-You-Don-t-Know-You-re-Beautiful/Z69DCEO0.html" type="audio/mpeg">    
     </audio>
     <div class="music-control" onclick="toggleMusic()">🎵</div>
 
