@@ -177,7 +177,7 @@
 
     <!-- Nhạc nền (Thay link MP3 của bạn vào đây) -->
     <audio id="bg-music" loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        <source src="One Direction - What Makes You Beautiful(Lyrics).mp3" type="audio/mpeg">    
     </audio>
     <div class="music-control" onclick="toggleMusic()">🎵</div>
 
