@@ -1,8 +1,9 @@
+
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hương</title>
+    <title>Gửi Người Phụ Nữ Tôi Yêu</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <!-- Animate On Scroll Library -->
@@ -173,13 +174,17 @@
 </head>
 <body>
 
-    
+    <!-- Màn hình chào -->
     <div id="welcome-screen">
-        <h2 style="margin-bottom: 20px;">Bạn có một thông điệp</h2>
-        <button id="start-btn">Nhấn Vào</button>
+        <h2 style="margin-bottom: 20px;">Bạn có một thông điệp mới ❤️</h2>
+        <button id="start-btn">Mở quà ngay</button>
     </div>
 
     <!-- Nhạc nền (Thay link MP3 của bạn vào đây) -->
+    <audio id="bg-music" loop>
+        <source src="1" type="audio/mpeg">
+    </audio>
+    <div class="music-control" onclick="toggleMusic()">🎵</div>
 
     <div class="container">
         <header data-aos="zoom-in">
@@ -193,32 +198,31 @@
         <!-- Thư viện ảnh -->
         <section class="photo-grid">
             <!-- Ảnh 1 -->
-            <div class="photo-item" data-aos="fade-up">
-                <img src="1.jpg" alt="Ảnh 1"> 
+            <div class="1.jpg">
+                <img src="https://picsum.photos/400/600?random=1" alt="Ảnh 1"> <!-- THAY LINK ẢNH TẠI ĐÂY -->
                 <div class="photo-overlay"><h3>lời chúc của hùng</h3></div>
             </div>
             <!-- Ảnh 2 -->
-            <div class="photo-item" data-aos="fade-up" data-aos-delay="100">
-                <img src="2.jpg" alt="Ảnh 2"> 
-                <div class="photo-overlay"><h3>lời chúc của a hy</h3></div>
-            </div>
-            <!-- Ảnh 3 -->
-            <div class="photo-item" data-aos="fade-up" data-aos-delay="200">
-                <img src="3.jpg" alt="Ảnh 3"> 
-                <div class="photo-overlay"><h3>lời chúc của long</h3></div>
-            </div>
-            <!-- Ảnh 4 -->
-            <div class="photo-item" data-aos="fade-up" data-aos-delay="300">
-                <img src="4.jpg" alt="Ảnh 4"> 
+            <div class="2.jpg" data-aos-delay="100">
+                <img src="https://picsum.photos/400/600?random=2" alt="Ảnh 2"> <!-- THAY LINK ẢNH TẠI ĐÂY -->
                 <div class="photo-overlay"><h3>lời chúc của hòa</h3></div>
             </div>
-             <div class="photo-item" data-aos="fade-up" data-aos-delay="300">
-                <img src="2.jpg" alt="Ảnh 4"> 
+            <!-- Ảnh 3 -->
+            <div class="3.jpg" data-aos-delay="200">
+                <img src="https://picsum.photos/400/600?random=3" alt="Ảnh 3"> <!-- THAY LINK ẢNH TẠI ĐÂY -->
                 <div class="photo-overlay"><h3>lời chúc của táo đuần</h3></div>
             </div>
-             <div class="photo-item" data-aos="fade-up" data-aos-delay="300">
-                <img src="1.jpg" alt="Ảnh 4"> 
-                <div class="photo-overlay"><h3>lời chúc của tao</h3></div>
+            <!-- Ảnh 4 -->
+            <div class="4.jpg" data-aos-delay="300">
+                <img src="https://picsum.photos/400/600?random=4" alt="Ảnh 4"> <!-- THAY LINK ẢNH TẠI ĐÂY -->
+                <div class="photo-overlay"><h3>lời chúc của lỏ</h3></div>
+            </div>
+            div class="1.jpg" data-aos-delay="300">
+                <img src="https://picsum.photos/400/600?random=4" alt="Ảnh 4"> <!-- THAY LINK ẢNH TẠI ĐÂY -->
+                <div class="photo-overlay"><h3>lời chúc của anh hy</h3></div>
+            </div>div class="2.jpg" data-aos-delay="300">
+                <img src="https://picsum.photos/400/600?random=4" alt="Ảnh 4"> <!-- THAY LINK ẢNH TẠI ĐÂY -->
+                <div class="photo-overlay"><h3>lời chúc của hảo</h3></div>
             </div>
         </section>
 
@@ -227,12 +231,12 @@
             <p style="line-height: 1.8; margin-top: 20px;">
                 Cảm ơn bạn vì đã xuất hiện và làm cho thế giới này trở nên dịu dàng hơn. 
                 Chúc bạn không chỉ ngày 8/3 mà tất cả 364 ngày còn lại đều luôn tự tin, 
-                được yêu thương và đậu nguyện vọng 1 nhaaaa❤️❤️❤️
+                được yêu thương và đậu nv1 nhaa
             </p>
         </section>
 
         <footer>
-            <p>Made with ❤️ by [Hảo 4.0]</p>
+            <p>Made with ❤️ by [Tên của bạn]</p>
         </footer>
     </div>
 
@@ -247,7 +251,7 @@
         const welcomeScreen = document.getElementById('welcome-screen');
         const typingText = document.getElementById('typing-text');
 
-        const message = "Chào bạn tôi đại diện cho Gia Đình Hóa Học chúc mừng bạn ngày 8/3 vui vẻ nha";
+        const message = "Chúc bạn một ngày 8/3 ngọt ngào, xinh đẹp và tràn đầy năng lượng tích cực! Bạn là phiên bản duy nhất và tuyệt vời nhất...";
 
         // Xử lý khi bắt đầu
         startBtn.addEventListener('click', () => {
