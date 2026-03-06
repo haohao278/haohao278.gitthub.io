@@ -116,23 +116,14 @@
     </div>
 
     <div class="photo-grid">
-        <!-- CHỖ THAY ẢNH: Thay link bên dưới bằng link ảnh của bạn -->
         <div class="photo-card">
             <img src="1.jpg" alt="Ảnh 1">
-            <div class="photo-overlay"><h4>ngón tay hơi kì</h4></div>
-        </div>
         <div class="photo-card">
             <img src="2.jpg" alt="Ảnh 2">
-            <div class="photo-overlay"><h4>10 điểm không có nhưng</h4></div>
-        </div>
         <div class="photo-card">
             <img src="3.jpg" alt="Ảnh 3">
-            <div class="photo-overlay"><h4>ngầu quá chị ới</h4></div>
-        </div>
         <div class="photo-card">
             <img src="4.jpg" alt="Ảnh 4">
-            <div class="photo-overlay"><h4>nháy mắt với anh nào đây</h4></div>
-        </div>
         
          <div class="message">
             <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện vọng 1 nhaa </p>
@@ -159,3 +150,5 @@
 
         setInterval(createPetal, 300);
     </script>
+</body>    
+</html>
