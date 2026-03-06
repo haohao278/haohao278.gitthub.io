@@ -74,7 +74,7 @@
         /* Lời chúc */
         .message {
             margin: 30px;
-            padding: 20px;
+            padding: 30px;
             background: white;
             border-radius: 15px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
