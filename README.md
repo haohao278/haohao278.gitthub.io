@@ -121,13 +121,13 @@
             <img src="1.jpg" alt="Ảnh 1"> <h3>ngón tay kì kì</h3>
         </div>
         <div class="photo-card">
-            <img src="2.jpg" alt="Ảnh 2"> <h3>ngón tay kì kì</h3>
+            <img src="2.jpg" alt="Ảnh 2"> <h3>con vợ quá đẹp</h3>
         </div>
         <div class="photo-card">
-            <img src="3.jpg" alt="Ảnh 3"> <h3>ngón tay kì kì</h3>
+            <img src="3.jpg" alt="Ảnh 3"> <h3>áo dài chiến đét</h3>
         </div>
         <div class="photo-card">
-            <img src="4.jpg" alt="Ảnh 4"> <h3>ngón tay kì kì</h3>
+            <img src="4.jpg" alt="Ảnh 4"> <h3>nháy cái bắn rồi</h3>
         </div>
     </div>
 
