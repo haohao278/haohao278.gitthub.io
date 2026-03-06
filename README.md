@@ -159,5 +159,3 @@
 
         setInterval(createPetal, 300);
     </script>
-</body>
-</html>
