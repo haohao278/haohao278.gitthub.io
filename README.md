@@ -76,9 +76,9 @@
             margin: 30px;
             padding: 30px;
             background: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            max-width: 600px;
             text-align: center;
             line-height: 1.6;
             color: #555;
@@ -135,6 +135,7 @@
         </div>
 
 
+  
     <div class="message">
         <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện vọng 1 nhaa </p>
     </div>
