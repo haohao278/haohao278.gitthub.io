@@ -45,9 +45,9 @@
         .photo-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
+            gap: 30px;
             max-width: 600px;
-            padding: 20px;
+            padding: 30px;
             z-index: 5;
         }
 
@@ -112,7 +112,7 @@
 
     <div class="header">
         <h1>Happy Women's Day 8/3! 🌷</h1>
-        <p>con vợ này xinh phết.Và trình độ chỉ mới tới đây nên đừng chê nha</p>
+        <p>Con vợ này xinh phết.Và trình độ chỉ mới tới đây nên đừng chê nha</p>
     </div>
 
     <div class="photo-grid">
@@ -120,22 +120,18 @@
         <div class="photo-card">
             <img src="1.jpg" alt="Ảnh 1">
             <div class="photo-overlay"><h3>ngón tay hơi kì</h3></div>
-            </div>
         </div>
         <div class="photo-card">
             <img src="2.jpg" alt="Ảnh 2">
             <div class="photo-overlay"><h3>10 điểm không có nhưng</h3></div>
-            </div>
         </div>
         <div class="photo-card">
             <img src="3.jpg" alt="Ảnh 3">
             <div class="photo-overlay"><h3>ngầu quá chị ới</h3></div>
-            </div>
         </div>
         <div class="photo-card">
             <img src="4.jpg" alt="Ảnh 4">
             <div class="photo-overlay"><h3>nháy mắt với anh nào đây</h3></div>
-            </div>
         </div>
 
 
