@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -66,7 +66,7 @@
 
         .photo-card img {
             width: 100%;
-            height: 200px;
+            height: 300px;
             object-fit: cover;
             border-radius: 5px;
         }
@@ -132,7 +132,7 @@
     </div>
 
     <div class="message">
-        <p>Chúc bạn một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Cảm ơn bạn vì đã luôn tuyệt vời như thế! ❤️</p>
+        <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện vọng 1 nhaa </p>
     </div>
 
     <script>
