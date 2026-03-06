@@ -45,7 +45,7 @@
         .photo-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
+            gap: 20px;
             max-width: 600px;
             padding: 20px;
             z-index: 5;
@@ -66,7 +66,7 @@
 
         .photo-card img {
             width: 100%;
-            height: 250px;
+            height: 300px;
             object-fit: cover;
             border-radius: 5px;
         }
@@ -74,11 +74,11 @@
         /* Lời chúc */
         .message {
             margin: 30px;
-            padding: 30px;
+            padding: 20px;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            max-width: 500px;
             text-align: center;
             line-height: 1.6;
             color: #555;
@@ -112,22 +112,28 @@
 
     <div class="header">
         <h1>Happy Women's Day 8/3! 🌷</h1>
-        <p>Con vợ này xinh phết.Và trình độ chỉ mới tới đây nên đừng chê nha</p>
+        <p>Gửi đến con vợ Lại Quỳnh Hương</p>
     </div>
 
     <div class="photo-grid">
+    
         <div class="photo-card">
-            <img src="1.jpg" alt="Ảnh 1">
-        <div class="photo-card">
-            <img src="2.jpg" alt="Ảnh 2">
-        <div class="photo-card">
-            <img src="3.jpg" alt="Ảnh 3">
-        <div class="photo-card">
-            <img src="4.jpg" alt="Ảnh 4">
-        
-         <div class="message">
-            <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện vọng 1 nhaa </p>
+            <img src="1.jpg" alt="Ảnh 1"> <h3>ngón tay kì kì</h3>
         </div>
+        <div class="photo-card">
+            <img src="2.jpg" alt="Ảnh 2"> <h3>ngón tay kì kì</h3>
+        </div>
+        <div class="photo-card">
+            <img src="3.jpg" alt="Ảnh 3"> <h3>ngón tay kì kì</h3>
+        </div>
+        <div class="photo-card">
+            <img src="4.jpg" alt="Ảnh 4"> <h3>ngón tay kì kì</h3>
+        </div>
+    </div>
+
+    <div class="message">
+        <p>Chúc HƯƠNG một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và chúc con vợ năm nay đậu nv1 nhé(´▽`ʃ❤️ƪ)</p>
+    </div>
 
     <script>
         // Hiệu ứng hoa rơi
@@ -150,5 +156,5 @@
 
         setInterval(createPetal, 300);
     </script>
-</body>    
+</body>
 </html>
