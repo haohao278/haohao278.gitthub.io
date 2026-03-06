@@ -118,16 +118,16 @@
     <div class="photo-grid">
         <!-- CHỖ THAY ẢNH: Thay link bên dưới bằng link ảnh của bạn -->
         <div class="photo-card">
-            <img src="https://picsum.photos/400/400?random=1" alt="Ảnh 1">
+            <img src="1.jpg" alt="Ảnh 1">
         </div>
         <div class="photo-card">
-            <img src="https://picsum.photos/400/400?random=2" alt="Ảnh 2">
+            <img src="2.jpg" alt="Ảnh 2">
         </div>
         <div class="photo-card">
-            <img src="https://picsum.photos/400/400?random=3" alt="Ảnh 3">
+            <img src="3.jpg" alt="Ảnh 3">
         </div>
         <div class="photo-card">
-            <img src="https://picsum.photos/400/400?random=4" alt="Ảnh 4">
+            <img src="4.jpg" alt="Ảnh 4">
         </div>
     </div>
 
