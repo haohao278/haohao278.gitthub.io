@@ -124,14 +124,20 @@
         </div>
         <div class="photo-card">
             <img src="2.jpg" alt="Ảnh 2">
+            <div class="photo-overlay"><h3>10 điểm không có nhưng</h3></div>
+            </div>
         </div>
         <div class="photo-card">
             <img src="3.jpg" alt="Ảnh 3">
+            <div class="photo-overlay"><h3>ngầu quá chị ới</h3></div>
+            </div>
         </div>
         <div class="photo-card">
             <img src="4.jpg" alt="Ảnh 4">
+            <div class="photo-overlay"><h3>nháy mắt với anh nào đây</h3></div>
+            </div>
         </div>
-    </div>
+
 
     <div class="message">
         <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện vọng 1 nhaa </p>
