@@ -47,7 +47,7 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 30px;
             max-width: 600px;
-            padding: 30px;
+            padding: 20px;
             z-index: 5;
         }
 
@@ -66,7 +66,7 @@
 
         .photo-card img {
             width: 100%;
-            height: 300px;
+            height: 250px;
             object-fit: cover;
             border-radius: 5px;
         }
@@ -119,19 +119,19 @@
         <!-- CHỖ THAY ẢNH: Thay link bên dưới bằng link ảnh của bạn -->
         <div class="photo-card">
             <img src="1.jpg" alt="Ảnh 1">
-            <div class="photo-overlay"><h3>ngón tay hơi kì</h3></div>
+            <div class="photo-overlay"><h4>ngón tay hơi kì</h4></div>
         </div>
         <div class="photo-card">
             <img src="2.jpg" alt="Ảnh 2">
-            <div class="photo-overlay"><h3>10 điểm không có nhưng</h3></div>
+            <div class="photo-overlay"><h4>10 điểm không có nhưng</h4></div>
         </div>
         <div class="photo-card">
             <img src="3.jpg" alt="Ảnh 3">
-            <div class="photo-overlay"><h3>ngầu quá chị ới</h3></div>
+            <div class="photo-overlay"><h4>ngầu quá chị ới</h4></div>
         </div>
         <div class="photo-card">
             <img src="4.jpg" alt="Ảnh 4">
-            <div class="photo-overlay"><h3>nháy mắt với anh nào đây</h3></div>
+            <div class="photo-overlay"><h4>nháy mắt với anh nào đây</h4></div>
         </div>
 
 
