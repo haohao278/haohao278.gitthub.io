@@ -112,13 +112,15 @@
 
     <div class="header">
         <h1>Happy Women's Day 8/3! 🌷</h1>
-        <p>Gửi những điều ngọt ngào nhất tới người phụ nữ tôi yêu!</p>
+        <p>con vợ này xinh phết.Và trình độ chỉ mới tới đây nên đừng chê nha</p>
     </div>
 
     <div class="photo-grid">
         <!-- CHỖ THAY ẢNH: Thay link bên dưới bằng link ảnh của bạn -->
         <div class="photo-card">
             <img src="1.jpg" alt="Ảnh 1">
+            <div class="photo-overlay"><h3>ngón tay hơi kì</h3></div>
+            </div>
         </div>
         <div class="photo-card">
             <img src="2.jpg" alt="Ảnh 2">
