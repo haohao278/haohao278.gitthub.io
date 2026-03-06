@@ -133,13 +133,10 @@
             <img src="4.jpg" alt="Ảnh 4">
             <div class="photo-overlay"><h4>nháy mắt với anh nào đây</h4></div>
         </div>
-
-
-  
-    <div class="message">
-        <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện 
-        vọng 1 nhaa </p>
-    </div>
+        
+         <div class="message">
+            <p>Chúc Hương một ngày 8/3 tràn đầy niềm vui, hạnh phúc và luôn rạng rỡ như những đóa hoa. Và mong Hương năm nay sẽ đậu nguyện vọng 1 nhaa </p>
+        </div>
 
     <script>
         // Hiệu ứng hoa rơi
